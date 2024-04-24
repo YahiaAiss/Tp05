@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0cda2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.add {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #b2bea1;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: calc(50% - 20px);
+    margin-right: 20px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    color: #2a4541;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #2e322d;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 16px);
+}
+
+button#lowel {
+    width: 150px;
+    padding: 0;
+    border: none;
+    transform: rotate(5deg);
+    transform-origin: center;
+    font-family: "Gochi Hand", cursive;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #494a4b;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #5cdb95;
+}
+button{
+    width: 150px;
+    padding: 0;
+    border: none;
+    transform-origin: center;
+    font-family: "Gochi Hand", cursive;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #494a4b;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #5cdb95;
+}
+
+button#lowel span {
+    background: #f1f5f8;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #494a4b;
+}
+
+button:active {
+    transform: translateY(5px);
+    padding-bottom: 0px;
+    outline: 0;
+}
+button#lowel:active {
+    transform: translateY(5px);
+    padding-bottom: 0px;
+    outline: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
